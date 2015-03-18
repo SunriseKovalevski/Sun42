@@ -7,10 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author Egorov A.
- */
+
 @WebServlet(name = "web_controller", urlPatterns = {"/article", "/registration"})
 public class web_controller extends HttpServlet {
 
